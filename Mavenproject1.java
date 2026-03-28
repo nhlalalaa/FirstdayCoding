@@ -1,0 +1,39 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.mavenproject1;
+import java.util.Scanner;
+
+public class Mavenproject1 {
+
+    public static void main(String[] args) {
+       
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter your name: ");
+        String name = input.nextLine();
+         
+        System.out.println("Enter your Surname: ");
+        String surname = input.nextLine();
+        System.out.println("Enter your Id number:");
+        String id=input.nextLine();
+
+        System.out.println("Enter your age: ");
+        int age = input.nextInt();
+
+      //  input.nextLine(); // 🔥 FIX: consume leftover newline
+
+      //  System.out.println("Enter your ID Number: ");
+      //  String id = input.nextLine();
+          
+        System.out.println(" ");
+        System.out.println("**************");
+        System.out.println("****************");
+          
+        System.out.println("Name   :" + name);
+        System.out.println("Surname:" + surname);
+        System.out.println("Age    :" + age);
+        System.out.println("ID number:" + id);
+    }
+}
